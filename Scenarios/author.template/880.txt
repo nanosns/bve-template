@@ -1,0 +1,63 @@
+BveTs Train 1.01
+###############################################################################
+#他列車ファイル
+#ファイル書式:文字エンコーディング
+#[セクション1]
+#キー1 = 値1
+#キー2 = 値2
+#...
+#[セクション2]
+#キー3 = 値3
+#...
+
+#■セクション
+#Structure	ストラクチャーを配置します
+#Sound3d	音源を設定します
+
+#■Structure セクション
+#Key	ストラクチャー名 (ストラクチャーリストファイルで定義した文字列)
+#Distance	他列車原点から後側軌道交点 (台車中心など) までの距離
+#Span	後側軌道交点と前側軌道交点の間の距離
+#Z	後側軌道交点からストラクチャー原点までの z 座標
+
+#Sound3d セクション
+#Key	サウンド名 (サウンドリストファイルで定義した文字列)
+#Distance1	他列車原点から音源域の後側までの距離
+#Distance2	他列車原点から音源域の前側までの距離
+#Function UP	音種別 (Stationary: 定常音 | Rolling: 転動音 | Acceleration: 加速音 | Deceleration: 減速音)
+###############################################################################
+
+[Structure]
+Key = M880McR
+Distance = -15
+Z = 6
+Span = 12
+
+[Structure]
+Key = M880T
+Distance = -33
+Z = 6
+Span = 12
+
+[Sound3d]
+Key = M880Run
+Distance = -3
+Function = run
+
+[Sound3d]
+Key = M880Run
+Distance2 = -15
+Distance1 = -21
+Function = run
+
+[Sound3d]
+Key = M880Accel
+Distance2 = -3
+Distance1 = -105
+Function = accelerate
+
+[Sound3d]
+Key = M880Decel
+Distance2 = -3
+Distance1 = -105
+Function = decelerate

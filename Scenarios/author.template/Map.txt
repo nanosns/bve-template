@@ -1,0 +1,24 @@
+﻿BveTs Map 2.02
+# 〇〇△△線
+# author
+# 〇〇 △△線 AAAA→BBBB
+
+Structure.Load('Structures\Structures.csv');
+
+Signal.Load('Signals.csv');
+Signal.SpeedLimit(0, 25, 40, 70, 100, null);
+
+Sound.Load('Sounds\Sounds.csv');
+
+Sound3D.Load('Sounds\Sounds3d.csv');
+
+Station.Load('Stations.csv');
+
+Train.Add('Oncoming', '3000.txt', 'Opp', -1);
+
+Light.Ambient(0.9375, 0.9375, 0.9375);
+#Light.Ambient(1, 1, 1);
+Light.Diffuse(0.125, 0.125, 0.125);
+#Light.Diffuse(0, 0, 0);
+Light.Direction(75, 225);
+

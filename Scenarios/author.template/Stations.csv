@@ -1,0 +1,15 @@
+BveTs Station List 2.00
+#stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
+#1	stationKey	停車場名 (任意の文字列)
+#2	stationName	時刻表に表示する停車場名
+#3	arrivalTime	到着時刻 (HH:mm:ss) (p: 通過駅)
+#4	depertureTime	出発時刻または通過時刻 (HH:mm:ss) (t: 終着駅)
+#5	stoppageTime	標準停車時間 [s]
+#6	defaultTime	駅にジャンプしたときの時刻 (HH:mm:ss)
+#7	signalFlag	出発信号 (0: 最高現示 | 1: depertureTime の stoppageTime 前の時刻まで停止現示)
+#8	alightingTime	降車時間 [s]
+#9	passengers	出発時の乗車率
+#10	arrivalSoundKey	ドアが開いたときに再生される音 (サウンドリストファイルで定義した soundKey)
+#11	depertureSoundKey	depertureTime の stoppageTime 前の時刻に再生される音 (サウンドリストファイルで定義した soundKey)
+#12	doorReopen	ドアが再開閉される確率
+#13	stuckInDoor	旅客がドアに挟まる時間 [s]

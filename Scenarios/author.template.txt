@@ -1,0 +1,10 @@
+﻿BveTs Scenario 2.00
+
+Title = AAA→BBB
+Route = author.template\Map.txt
+RouteTitle = ●●▲▲線
+Vehicle = author.template\mei800\Vehicle.txt
+VehicleTitle = モ800形
+Author = author
+Image = author.template\Screenshot.jpg
+Comment =
