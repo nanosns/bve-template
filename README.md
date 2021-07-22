@@ -1,26 +1,7 @@
-# ts-jest boilerplate
+# bve trainsim template
 
-A boilerplate for TypeScript + Jest.
+bve traimsimのテンプレートです。
 
-# Usage
+# 使い方
 
-## Build
-Compiled 'src/' files to 'dist/'.
-
-```bash
-$ yarn build
-```
-
-## Test
-Run jest.
-
-```bash
-$ yarn test
-```
-
-## Lint
-Run eslint.
-
-```bash
-$ yarn lint --fix
-```
+## 〇〇〇
